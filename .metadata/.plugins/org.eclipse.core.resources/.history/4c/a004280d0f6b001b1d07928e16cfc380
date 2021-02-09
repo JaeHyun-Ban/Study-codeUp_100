@@ -1,0 +1,16 @@
+package Basic;
+
+import java.util.Scanner;
+
+public class test09 {
+	public static void main(String[] args) {
+		
+		int n;
+		Scanner sc = new Scanner(System.in);
+		System.out.println("입력: ");
+		n = sc.nextInt();
+		
+		System.out.println(n);
+		
+	}
+}
