@@ -1,0 +1,17 @@
+package Basic11_20;
+
+import java.util.Scanner;
+
+public class test11 {
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+
+		char x = sc.next().trim().charAt(0);//입력받기.공백제거.char
+
+		System.out.println(x);
+
+		sc.close();
+
+	}
+}
