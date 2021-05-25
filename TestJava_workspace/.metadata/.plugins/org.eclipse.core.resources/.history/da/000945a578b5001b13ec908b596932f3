@@ -1,0 +1,17 @@
+package Basic21_30;
+
+import java.util.Scanner;
+
+//1026 : [기초-입출력] 시분초 입력받아 분만 출력하기(설명)
+public class test28 {
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+
+		int num = sc.nextInt();
+		
+		System.out.println(num);
+		
+		
+	}
+}

@@ -1,0 +1,21 @@
+
+package basic51_60;
+
+import java.util.Scanner;
+
+// 1053 : [기초-논리연산] 참 거짓 바꾸기(설명)
+public class test53 {
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+
+		int num1 = sc.nextInt();
+		int num2 = sc.nextInt();
+		sc.close();
+
+		if(num1 != num2) // !=: 서로 다를시
+			System.out.println(1);
+		else //그렇지 않다면
+			System.out.println(0);
+	}
+}

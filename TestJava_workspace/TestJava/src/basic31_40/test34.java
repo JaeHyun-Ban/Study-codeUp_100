@@ -1,0 +1,19 @@
+package basic31_40;
+
+import java.util.Scanner;
+
+// 1034 : [기초-출력변환] 8진 정수 1개 입력받아 10진수로 출력하기(설명)
+public class test34 {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		String oct = sc.next();
+		sc.close();
+		
+		int num = Integer.valueOf(oct, 8);// (문자열, x진수)
+		System.out.println(num);
+		
+	}
+}

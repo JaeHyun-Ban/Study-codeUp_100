@@ -1,0 +1,22 @@
+package basic31_40;
+
+import java.util.Scanner;
+
+// 1039 : [기초-산술연산] 정수 2개 입력받아 합 출력하기2(설명)
+
+public class test39 {
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+		
+		//int의 범위를 벗어나는 값을 방지하기 위해 long으로 변경
+		long num1 = sc.nextLong();
+		long num2 = sc.nextLong();
+		sc.close();
+		
+		System.out.println(num1 + num2);
+		
+		// # 문제가 이전꺼와 차이가없네..?
+	}
+}

@@ -1,0 +1,23 @@
+package Basic41_50;
+
+import java.util.Scanner;
+
+// 1046 : [기초-산술연산] 정수 3개 입력받아 합과 평균 출력하기
+public class test46 {
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+
+		long num1 = sc.nextInt();
+		long num2 = sc.nextInt();
+		long num3 = sc.nextLong()
+
+		System.out.println(num1 + num2);
+		System.out.println(num1 - num2);
+		System.out.println(num1 * num2);
+		System.out.println(num1 / num2);
+		System.out.println(num1 % num2);
+		System.out.printf("%.2f", (float)num1/num2);
+
+	}
+}

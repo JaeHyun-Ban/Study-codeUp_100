@@ -1,0 +1,14 @@
+package Basic41_50;
+
+import java.util.Scanner;
+
+// 1041 : [기초-산술연산] 문자 1개 입력받아 다음 문자 출력하기(설명)
+public class test41 {
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		char c = sc.next().charAt(0);
+		System.out.println((char)((int)c + 1));
+	}
+}

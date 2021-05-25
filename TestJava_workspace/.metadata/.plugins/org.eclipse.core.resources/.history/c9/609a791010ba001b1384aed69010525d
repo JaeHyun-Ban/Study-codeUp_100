@@ -1,0 +1,24 @@
+package Basic41_50;
+
+import java.util.Scanner;
+
+// 1047 : [기초-비트시프트연산] 정수 1개 입력받아 2배 곱해 출력하기(설명)
+public class test47 {
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+
+		long num1 = sc.nextLong();
+		long num2 = sc.nextLong();
+		long num3 = sc.nextLong();
+		sc.close();
+		
+		long sum = num1 + num2 + num3;
+		float avg = (float) sum / 3;
+		
+		System.out.println(sum);
+		System.out.printf("%.1f", avg);
+		
+
+	}
+}

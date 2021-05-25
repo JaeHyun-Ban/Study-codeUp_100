@@ -1,0 +1,25 @@
+package Basic11_20;
+
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class test18 {
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+
+		String year = sc.next(); //String?œ¼ë¡? ?…? ¥ë°›ê¸°
+		String[] list = year.split("\\."); //split?œ¼ë¡? ?‚˜?ˆ ì£¼ê¸°
+		
+		//?›”, ?¼?˜ stringê¸¸ì´ê°? 1?´?‹¤ => ?•œ?ë¦¬ë‹¤ => ?•?— 0?„ ë¶™ì—¬ì¤??‹¤
+		if(list[1].length() == 1 || list[2].length() == 2) {
+			
+		}
+			
+		
+		System.out.println(year);
+		System.out.println(Arrays.toString(list));
+		
+	}
+}

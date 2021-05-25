@@ -1,0 +1,20 @@
+package Basic31_40;
+
+import java.util.Scanner;
+
+// 1032 : [기초-출력변환] 10진 정수 입력받아 16진수로 출력하기1(설명)
+public class test32 {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		int num = sc.nextInt();
+		sc.close();
+		
+		String oct = Integer.toHexString(num);//8진수 Oct으로 변경
+		
+		System.out.println(oct);
+		
+	}
+}

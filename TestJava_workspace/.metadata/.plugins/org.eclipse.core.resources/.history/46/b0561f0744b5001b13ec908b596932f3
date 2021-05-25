@@ -1,0 +1,18 @@
+package Basic11_20;
+
+import java.util.Scanner;
+
+public class test19 {
+  public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
+
+    String str = sc.next();
+
+    String array[] = str.split("\\.");// \\.ë¡? ?‚˜?ˆ„ê¸?
+    int year = Integer.parseInt(array[0]);// intë¡? ë³??™˜ ?›„ ???…
+    int month = Integer.parseInt(array[1]);
+    int day = Integer.parseInt(array[2]);
+
+    System.out.printf("%04d.%02d.%02d", year, month, day);// %02d?‚¬?š©?‹œ 2ì¹? ê¸°ë³¸ ì¶œë ¥, ?•œ?ë¦? ?ˆ˜?¸ê²½ìš° 0?„ ë¶™ì—¬ì¤??‹¤
+  }
+}
